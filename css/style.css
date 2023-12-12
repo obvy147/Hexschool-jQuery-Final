@@ -97,43 +97,55 @@ a{
 	margin-top: 18px;
 	margin-bottom: 22px;
 }
-.menu ul{
+.menu-ul{
 	display: flex;
 	background: white;
 	margin-left: 150px;
+	margin-top: 15px;
 }
-.menu li a{
+.menu-ul li a{
 	display: block;
-	width: 80px;
-	height: 50px;
+	width: 100px;
 	font-size: 16px;
 	color: #00251A;
 	font-weight: 700;
 	text-align: center;
-	line-height: 4.5;
+	line-height: 2.5;
 	margin-left: 10px;
 }
-.menu li a:hover{
+.menu-ul li a:hover{
 	border-bottom: 5px solid #00CC99;
 }
-.banner{
-	height: 390px;
-	background: url(../images/header_background.jpg);
-	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+
+.menu-ul .hide-ul a{
+	font-size: 14px;
+}
+.hide-ul{
+	display: none;
+}
+.swiper{
+	width: 1600px;
+	position: relative;
+	z-index: 1;
+	margin-top: 60px;
 	margin-bottom: 60px;
 }
-.banner h2{
+.swiper-wrapper{
+	margin: 0 auto;
+	width: 618px;
+	height: 246px;
+}
+.swiper h2{
 	height: 115px;
 	color: #1E1E1E;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 43.2px;
-	background: rgba(255, 255, 255, 0.15);
-	padding-left: 498px;
 	padding-top: 24px;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	z-index: 2;
 }
 .content .outer-ul{
 	display: flex;
@@ -148,10 +160,6 @@ a{
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-}
-.content-img2{
-	margin-top: 42px;
-	margin-bottom: 42px;
 }
 .content .outer-li h4{
 	margin-top: 10px;
@@ -251,4 +259,12 @@ textarea{
 }
 .footer-contact a:hover{
 	border-bottom: 1px solid #026d52;
+}
+.arrow-top img{
+	width: 70px;
+	height: 65px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
 }
