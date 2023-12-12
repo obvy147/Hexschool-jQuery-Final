@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: "微軟正黑體";
+}
+a{
+	text-decoration: none;
+}
+.wrap{
+	width: 1920px;
+	margin: 0 auto;
+}
+.header-ul{
+	display: flex;
+	background: #F6F6F8;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 1447px;
+}
+.header-ul li{
+	margin-right: 12px;
+	display: flex;
+	align-items: center;
+}
+.header-a1{
+	color: #4267B2;
+	font-size: 16px;
+	border-right: 1px solid #CCCCCC;
+	padding-right: 12px;
+}
+.header-a2{
+	color: #1DA1F2;
+	font-size: 16px;
+}
+.header-a1:hover,.header-a2:hover{
+	color: #14a37f;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+}
+.header h2 a{
+	display: block;
+	width: 151px;
+	height: 36px;
+	background: url(../images/hexschool-logo.png);
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top: 18px;
+	margin-bottom: 22px;
+}
+.menu ul{
+	display: flex;
+	background: white;
+	margin-left: 150px;
+}
+.menu li a{
+	display: block;
+	width: 80px;
+	height: 50px;
+	font-size: 16px;
+	color: #00251A;
+	font-weight: 700;
+	text-align: center;
+	line-height: 4.5;
+	margin-left: 10px;
+}
+.menu li a:hover{
+	border-bottom: 5px solid #00CC99;
+}
+.banner{
+	height: 390px;
+	background: url(../images/header_background.jpg);
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.banner h2{
+	height: 115px;
+	color: #1E1E1E;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.2px;
+	background: rgba(255, 255, 255, 0.15);
+	padding-left: 498px;
+	padding-top: 24px;
+}
+.content .outer-ul{
+	display: flex;
+	justify-content: center;
+}
+.content .outer-li{
+	width: 350px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+	margin-right: 30px;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.content-img2{
+	margin-top: 42px;
+	margin-bottom: 42px;
+}
+.content .outer-li h4{
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.content .outer-li p{
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 305px;
+}
+.content li{
+	width: 300px;
+	margin-top: 5px;
+	line-height: 18px;
+}
+.content h3{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 60px;
+	text-align: center;
+}
+table{
+	width: 920px;
+	margin-top: 24px;
+	margin-left: 500px;
+}
+table td,th{
+	text-align: left;
+	font-size: 16px;
+	padding: 6px 17px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+table th{
+	font-weight: 700;
+}
+table .table-green{
+	color: #00CC99;
+	font-weight: 700;
+}
+form{
+	padding-top: 36px;
+	padding-bottom: 106px;
+	padding-left: 594px;
+	margin-top: 60px;
+	background: linear-gradient(#E4FFF8,#A2DDCE);
+}
+.content .form-h3{
+	width: 750px;
+	margin-top: 0px;
+	margin-bottom: 28px;
+}
+.form-content{
+	display: flex;
+}
+.form-contact input{
+	display: block;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 351px;
+	height: 38px;
+}
+.form-contact{
+	margin-right: 30px;
+}
+textarea{
+	width: 350px;
+	height: 190px;
+	margin-top: 8px;
+}
+.button{
+	width: 159px;
+	height: 38px;
+	color: white;
+	background: #00251A;
+	margin-top: 40px;
+	margin-left: 295px;
+}
+.button:hover{
+	background: #026d52;
+}
+.footer{
+	display: flex;
+}
+.footer img{
+	margin: 22px 405px;
+}
+.footer-contact{
+	margin: 16px 294px;
+	line-height: 24px;
+}
+.footer-contact a{
+	color: #00CC99;
+}
+.footer-contact a:hover{
+	border-bottom: 1px solid #026d52;
+}
